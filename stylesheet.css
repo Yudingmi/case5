@@ -1,0 +1,50 @@
+
+body {
+    margin: 0px;
+}
+input {
+        position: absolute;   
+        top: 50%;   
+        left: 45%;   
+}
+.year{
+		
+		stroke: #545454;
+		font-size: 180px;
+        font-family: "黑体";
+		opacity: 0.6;
+	}
+.domain {
+    display: none;
+}
+
+.tick line {
+    stroke: #C0C0BB;
+}
+
+.tick text {
+    fill: #000;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label {
+    fill: rgb(92, 92, 92);
+    font-size: 14pt;
+    font-family: "Microsoft YaHei", "宋体";
+}
+
+.value {
+    fill: rgb(138, 46, 46);
+    font-size: 15pt;
+    font-family: "Microsoft YaHei", "宋体";
+}
+
+.axis-label {
+    fill: #635F5D;
+    font-size: 32pt;
+    font-family: sans-serif;
+}
+
+
+
